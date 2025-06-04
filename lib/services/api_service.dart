@@ -30,7 +30,7 @@ class ApiService {
     }
   }
 
-  // Crear un carrito (simular)
+  // Crear un carrito
   static Future<Map<String, dynamic>> createCart(List<CartItem> items) async {
     final Map<String, dynamic> cartData = {
       'userId': 1,
